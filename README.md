@@ -12,3 +12,8 @@ A simple portfolio page
 # about me page screenshot
 
 ![](./images/desktop3.png)
+
+# case study page screenshot
+
+![](./images/desktop4.png)
+
