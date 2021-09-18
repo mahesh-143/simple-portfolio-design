@@ -3,4 +3,4 @@ A simple portfolio page
 
 # screenshot
 
-![](./images/desktop.png)
+![](./images/desktop1.png)
