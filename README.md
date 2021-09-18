@@ -1,6 +1,14 @@
 # simple-portfolio-design
 A simple portfolio page
 
-# screenshot
+# landing page screenshot
 
 ![](./images/desktop1.png)
+
+# project page screenshot
+
+![](./images/desktop2.png)
+
+# about me page screenshot
+
+![](./images/desktop3.png)
