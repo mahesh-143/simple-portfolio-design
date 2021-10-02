@@ -17,13 +17,6 @@
 }
 
 
-main{
-    /* padding: 0 2rem; */
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .cyan{
     color: var(--clr-cyan);
 }
@@ -36,8 +29,7 @@ main{
     font-weight: var(--fw-bold);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .about img{
@@ -136,8 +128,10 @@ main{
     grid-column: 2/4;
 }
 @media (min-width:760px){
-    .about{
+    .about .wrapper{
+        display: flex;
         flex-direction: row;
+        padding: 2rem;
     }
 
     .about-text{
@@ -154,7 +148,7 @@ main{
         justify-content: space-between;
     }
 
-    .workflow{
+    .workflow .wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;

@@ -7,22 +7,30 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-    <title>Jone Doe | About Me | Portfolio</title>
+    <title>Jon Doe | About Me | Portfolio</title>
 </head>
 <body>
     <header>
         <a class="logo" href="index.html">Jon Doe</a>
         <nav>
           <ul>
+            <li><a href="index.html" >home</a></li>
             <li><a href="about.html" class="active">about</a></li>
             <li><a href="projects.html">works</a></li>
-            <li><a href="#connect">connect</a></li>
+            <li><a href="contact.html">contact</a></li>
           </ul>
         </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+      
       </header>
 
       <main>
           <section class="about">
+              <div class="wrapper">
             <img src="./images/aboutme.jpg" alt="">
             <div class="about-container">
                 <h1 class="title">About me</h1>
@@ -32,9 +40,11 @@
                         exceptional <span class="cyan">User Interphase</span> and <span class="cyan">User experience.</span></p>
                 </div> 
             </div>
+        </div>
           </section>
 
           <section class="my-skills">
+              <div class="wrapper">
               <h2 class="title cyan">My Skills</h2>
               <ul class="skill-wrapper">
                   <li class="s-wrapp"><h1 class="skill-header">Tools</h1>
@@ -63,10 +73,11 @@
                             <li>Javascript</li>   
                         </ul></li>
               </ul>
-
+            </div>
           </section>
 
           <section class="workflow">
+              <div class="wrapper">
             <div class="workflow-container">
                 <h1 class="title">workflow</h1>
                 <ul class="workflow-list">
@@ -81,7 +92,8 @@
                 <img src="./images/grid2.png" class="grid-img2" alt="">
                 <img src="./images/grid3.png" class="grid-img3" alt="">
             </div>
-          </section>
+         </div>
+         </section>
       </main>
 
 
@@ -94,5 +106,7 @@
         <li><a href="#"><span class="iconify" data-icon="fe:twitter" style="color: #fff;"></span></a></li>
     </ul>
 </footer>
+
+<script src="app.js"></script>
 </body>
 </html>
